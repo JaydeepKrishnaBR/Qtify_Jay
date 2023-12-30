@@ -1,0 +1,94 @@
+/* App.css */
+
+/* Styles for the app bar */
+.app-bar {
+  background-color: #34c94b;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Other styles (you can add more styles as needed) */
+
+/* Logo and title styles */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.app-title {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: 'Avenir Next Condensed', sans-serif;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+/* Search input styles */
+.search-container {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.search-input {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  color: #121212;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.2px;
+  transition: border-color 0.3s ease-in-out;
+  width: 250px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #121212;
+}
+
+.search-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  position: absolute;
+  right: 10px; /* Adjust the position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search-icon-img {
+  height: 20px; /* Adjust icon height */
+  width: 20px; /* Adjust icon width */
+  fill: #121212; /* Adjust icon color */
+}
+/* Feedback button styles */
+.feedback-button {
+  background-color: #121212;
+  color: #34c94b;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.feedback-button:hover {
+  background-color: #0d0d0d;
+}
+
+.feedback-button:focus {
+  outline: none;
+}
